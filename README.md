@@ -1,76 +1,39 @@
-ALX - HOLBERTON SCHOOL
+# 0x16. C - Simple Shell
 
-SIMPLE SHELL PROJECT
+This project is an implementation of the shell created as the final project for the C code sprint at **ALX Africa**.
 
-This is a simple shell project in C programming.It's an interactive user interface which takes commands from the keyboard 
-and gives them to the operating system to perform.
+## Table of contents :clipboard:
 
-GENERAL REQUIREMENTS
+ - [Description]
+ - [Installation]
+ - [Usage]
+ - [Example]
+ - [Contributors]
+ - [Acknowledgements]
+## Description :e-mail:
+This is a shell written in [C](https://en.wikipedia.org/wiki/C_(programming_language)).
+It is based on [the Thompson Shell](https://en.wikipedia.org/wiki/Thompson_shell).
 
-Editors:vi, vim, emacs
-Environment:Ubuntu 20.0
-Shell compilation:gcc -Wall -Werror -Wextra -pedantic -std=gnu89
+## Installation :wrench:
+Clone the below repository and compile the files into an executable using the GCC compiler.
+```
+https://github.com/Fraol123/simple_shell.git.
+```
+##Environment :evergreen_tree::evergreen_tree:
 
-ALLOWED FUNCTIONS AND SYSTEM CALLS
+Our shell was built and tested on  Ubuntu 14.04 LTS.
 
-          * access (man 2 access)
+### Basic usage :bulb:
+- First, [fork this repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
+- Then [clone it to your local machine](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
+- Create an executable by running the following command:
+- `gcc -Wall -Werror -Wextra -pedantic *.c -o hsh`
+- From there, type in the following command and press your enter button.
+- `./hsh`
 
-	  * chdir (man 2 chdir)
 
-	  * close (man 2 close)
-
-	  * closedir (man 3 closedir)
-
-	  * execve (man 2 execve)
-
-	  * exit (man 3 exit)
-
-	  * _exit (man 2 _exit)
-
-	  * fflush (man 3 fflush)
-
-	  * fork (man 2 fork)
-
-	  * free (man 3 free)
-
-	  * getcwd (man 3 getcwd)
-
-	  * getline (man 3 getline)
-
-	  * getpid (man 2 getpid)
-
-	  * isatty (man 3 isatty)
-
-	  * kill (man 2 kill)
-
-	  * malloc (man 3 malloc)
-
-	  * open (man 2 open)
-
-	  * opendir (man 3 opendir)
-
-	  * perror (man 3 perror)
-
-	  * read (man 2 read)
-
-	  * readdir (man 3 readdir)
-
-	  * signal (man 2 signal)
-
-	  * stat (__xstat) (man 2 stat)
-
-	  * lstat (__lxstat) (man 2 lstat)
-
-	  * fstat (__fxstat) (man 2 fstat)
-
-	  * strtok (man 3 strtok)
-
-	  * wait (man 2 wait)
-
-	  * waitpid (man 2 waitpid)
-
-	  * wait3 (man 2 wait3)
-
-	  * wait4 (man 2 wait4)
-
-	  * write (man 2 write)
+## Acknowledgments :pray:
+- Our fellow cohort members.
+- The creators of the C language.
+- Our software engineer-in-residence.
+- Betty Holberton.
